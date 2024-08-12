@@ -1,0 +1,2 @@
+# 2024_kongju_Generative_Competition
+2024_kongju_Generative_Competition
