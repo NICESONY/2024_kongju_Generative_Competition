@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Moirai+One&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/setup.css">
+    <link rel="stylesheet" href="/css/recomedation.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- 자바스크립트 및 스와이퍼 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js" defer></script>
+
+    <!-- 아이콘 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <div class="contentbox">
+        <!-- contentbox는 전체적인 넓이를 맞추기 위해 생성. -->
+        <header>
+            <div class="headerbox">
+                <div class="headerlogo">
+                    <a href="#"><img src="/Logo/logo.svg" alt="Logo"></a>
+                </div>
+                <div class="researchicon">
+                    <a href="#"><img src="/icon/search-sm.svg" alt="Search"></a> 
+                    <a href="#"><img src="/icon/heart.svg" alt="Heart"></a>
+                </div>
+            </div>
+        </header>
+
+        <!-- New Section with Icon and Text -->
+        <div class="locationbox">
+            <a href="#"><img src="/icon/marker.svg" alt="Location Icon"></a>
+            <span>대전</span>
+        </div>
+
+        <!-- 추가 텍스트 섹션 -->
+        <div class="text-section">
+            <p>이번 방문의 애착장소 후보!</p>
+        </div>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="assets/img/foodss.png" alt="Image 1"></div>
+                <div class="swiper-slide"><img src="assets/img/foodss.png" alt="Image 2"></div>
+                <div class="swiper-slide"><img src="assets/img/foodss.png" alt="Image 3"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- 추가 컨텐츠 섹션 -->
+        <div class="additional-content">
+            <h2>딱 맞는 장소와 컨텐츠!</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="assets/img/foodss.png" alt="Sample Image 1">
+                    <div class="card-text">
+                        <p>하레하레에서 대표적인 소금빵을 맛보는 건 어떤가요?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/img/foodss.png" alt="Sample Image 2">
+                    <div class="card-text">
+                        <p>다다르다에서 '인간실격' 책을 읽어봐요.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/img/foodss.png" alt="Sample Image 3">
+                    <div class="card-text">
+                        <p>이번 무료전시인 '공동의 감각'을 둘러보는 걸 추천드릴게요!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/img/foodss.png" alt="Sample Image 4">
+                    <div class="card-text">
+                        <p>담온식당에서 인기 있는 '연어장 정식'을 먹어보는 건 어때요?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="more-button">
+                <a href="#">더보기</a>
+            </div>
+        </div>
+
+        <!-- 지현 님만을 위한 장소 섹션 -->
+        <div class="personal-recommendation">
+            <h2>지현 님만을 위한 장소</h2>
+            <p>추천 장소들을 둘러보아요!</p>
+            
+            <div class="swipers mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slide-content">
+                            <img src="assets/img/foodss.png" alt="Image 1" class="rounded-image">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-content">
+                            <img src="assets/img/foodss.png" alt="Image 2" class="rounded-image">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-content">
+                            <img src="assets/img/foodss.png" alt="Image 3" class="rounded-image">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+        <!-- 하단메뉴바 -->
+        <div class="menu">
+            <div class="menu-details">
+                <ul>
+                    <li><a href="/"><span class="icon"><img src="icon/home-line.svg" alt="Image 1"></span><span class="menu-text">홈</span></a></li>
+                    <li><a href="/"><span class="icon"><img src="icon/navigation-pointer-01.svg" alt="Image 1"></span>추천</a></li>
+                    <li><a href="/"><span class="icon"><img src="icon/pencil-02.svg" alt="Image 1"></span>기록</a></li>
+                    <li><a href="/"><span class="icon"><img src="icon/ticket-01.svg" alt="Image 1"></span>예약</a></li>
+                    <li><a href="/"><span class="icon"><img src="icon/user-03.svg" alt="Image 1"></span>설정</a></li>
+                </ul>
+            </div>
+        </div>  
+    </div>
+</body>
+</html>

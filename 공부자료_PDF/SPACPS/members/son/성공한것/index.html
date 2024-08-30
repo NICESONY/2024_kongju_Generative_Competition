@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!--- 폰트 --->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Moirai+One&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/setup.css">
+    <link rel="stylesheet" href="/css/headerhome.css">
+    <link rel="stylesheet" href="/css/contentindividual.css">
+    <link rel="stylesheet" href="/css/contentRecored.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    
+    <!-- JS -->
+    <script src="./js/swiper.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <!--아이콘 사용가능하게 해줌-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="contentbox">
+        <div class="contentindividual">
+            <div class="backgroundheader">
+                <!-- contentbox는 전체적인 넓이를 맞추기 위해 생성. -->
+                <header>
+                    <div class="headerbox">
+                        <div class="headerlogo">
+                            <a href="#"><img src="/Logo/logo.svg" alt="Logo"></a>
+                        </div>
+                        <div class="researchicon">
+                            <a href="#"><img src="/icon/search-sm.svg" alt="Search"></a>
+                        </div>
+                    </div>
+                </header>
+                <div class="statecontent">
+                    <h3>오늘 다녀온 장소를 기록해볼까요?</h3>
+                    <img src="./illust/recordillust.svg" alt="Record Illustration">
+                    <div class="locationcontent">
+                        <h3>오늘 방문한 장소</h3>
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="./photo/visitedplace01.png" alt="Place 1"></div>
+                                <div class="swiper-slide"><img src="./photo/visitedplace02.png" alt="Place 2"></div>
+                                <div class="swiper-slide"><img src="./photo/visitedplace03.png" alt="Place 3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    <!-- 하단메뉴바 -->
+    <div class="menu">
+        <div class="menu-details">
+          <ul>
+            <li><a href="/"><span class="icon"><i class="fa fa-home"></i></span>Home</a></li>
+            <li><a href="/"><span class="icon"><i class="fa fa-plane"></i></span>여행가기</a></li>
+            <li><a href="/"><span class="icon"><i class="fa fa-book"></i></span>기록</a></li>
+            <li><a href="/"><span class="icon"><i class="fa fa-list"></i></span>예약내역</a></li>
+            <li><a href="/"><span class="icon"><i class="fa fa-user"></i></span>mypage</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+        <!-- contentRecored.css -->
+        <div class="contentRecored">
+            <div class="Recordlocationbox">
+                <div class="Recordlocation">
+                    <img src="/icon/marker-pin-01recordbox.svg" alt="Marker">
+                    <h5>대전</h5>
+                    <img src="/icon/chevron-left.svg" alt="Chevron Left">
+                </div>
+            </div>
+            <div class="line"></div>
+            <div class="Recorddate">
+                <h5>2024.7</h5>
+                <div class="Recordphotoul">
+                    <div class="RecordphotoBox">
+                        <img class="Recordphotolocationicon" src="./photo/Intersectphoto_record-2.png" alt="Photo 1">
+                        <a href="#">
+                            <div class="recordphotobackground"></div>
+                        </a>
+                        <div class="recordphotoDescription">
+                            <div class="Recordphotolocation">
+                                <div class="Recordphotolocationbox">
+                                    <img src="icon/marker-pin-01recordphoto.svg" alt="Marker">
+                                    <div id="Recordphotolocationboxgap"></div>
+                                    <p class="Recordphotolocationtext">대전 성심당</p>
+                                </div>
+                            </div>
+                            <div class="Recorphotoddateul">
+                                <span class="Recorphotoddate">2024.07.24</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="RecordphotoBox">
+                        <img class="Recordphotolocationicon" src="./photo/Intersectphoto_record-1.png" alt="Photo 2">
+                        <a href="#">
+                            <div class="recordphotobackground"></div>
+                        </a>
+                        <div class="recordphotoDescription">
+                            <div class="Recordphotolocation">
+                                <div class="Recordphotolocationbox">
+                                    <img src="icon/marker-pin-01recordphoto.svg" alt="Marker">
+                                    <div id="Recordphotolocationboxgap"></div>
+                                    <p class="Recordphotolocationtext">대전 한밭카페</p>
+                                </div>
+                            </div>
+                            <div class="Recorphotoddateul">
+                                <span class="Recorphotoddate">2024.07.22</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="RecordphotoBox">
+                        <img class="Recordphotolocationicon" src="./photo/Intersectphoto_record.png" alt="Photo 3">
+                        <a href="#">
+                            <div class="recordphotobackground"></div>
+                        </a>
+                        <div class="recordphotoDescription">
+                            <div class="Recordphotolocation">
+                                <div class="Recordphotolocationbox">
+                                    <img src="icon/marker-pin-01recordphoto.svg" alt="Marker">
+                                    <div id="Recordphotolocationboxgap"></div>
+                                    <p class="Recordphotolocationtext">대전 시립미술관</p>
+                                </div>
+                            </div>
+                            <div class="Recorphotoddateul">
+                                <span class="Recorphotoddate">2024.07.11</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recorddate section -->
+        <div class="Recorddate">
+            <h5>2024.6</h5>
+            <div class="Recordphotoul">
+                <div class="RecordphotoBox">
+                    <img class="Recordphotolocationicon" src="./photo/Intersectphoto_record4.png" alt="Photo 4">
+                    <a href="#">
+                        <div class="recordphotobackground"></div>
+                    </a>
+                    <div class="recordphotoDescription">
+                        <div class="Recordphotolocation">
+                            <div class="Recordphotolocationbox">
+                                <img src="icon/marker-pin-01recordphoto.svg" alt="Marker">
+                                <div id="Recordphotolocationboxgap"></div>
+                                <p class="Recordphotolocationtext">대전 감동 돈까스</p>
+                            </div>
+                        </div>
+                        <div class="Recorphotoddateul">
+                            <span class="Recorphotoddate">2024.06.24</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 복제된 RecordphotoBox들 -->
+                <div class="RecordphotoBox">
+                    <img class="Recordphotolocationicon" src="./photo/Intersectphoto_record4.png" alt="Photo 5">
+                    <a href="#">
+                        <div class="recordphotobackground"></div>
+                    </a>
+                    <div class="recordphotoDescription">
+                        <div class="Recordphotolocation">
+                            <div class="Recordphotolocationbox">
+                                <img src="icon/marker-pin-01recordphoto.svg" alt="Marker">
+                                <div id="Recordphotolocationboxgap"></div>
+                                <p class="Recordphotolocationtext">대전 감동 돈까스</p>
+                            </div>
+                        </div>
+                        <div class="Recorphotoddateul">
+                            <span class="Recorphotoddate">2024.06.24</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="RecordphotoBox">
+                    <img class="Recordphotolocationicon" src="./photo/Intersectphoto_record4.png" alt="Photo 6">
+                    <a href="#">
+                        <div class="recordphotobackground"></div>
+                    </a>
+                    <div class="recordphotoDescription">
+                        <div class="Recordphotolocation">
+                            <div class="Recordphotolocationbox">
+                                <img src="icon/marker-pin-01recordphoto.svg" alt="Marker">
+                                <div id="Recordphotolocationboxgap"></div>
+                                <p class="Recordphotolocationtext">대전 감동 돈까스</p>
+                            </div>
+                        </div>
+                        <div class="Recorphotoddateul">
+                            <span class="Recorphotoddate">2024.06.24</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

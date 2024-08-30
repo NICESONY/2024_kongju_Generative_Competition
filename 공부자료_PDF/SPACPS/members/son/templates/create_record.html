@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기록 사진 등록</title>
+    <link rel="stylesheet" href="/css/setup.css">
+    <link rel="stylesheet" href="/css/headerhome.css">
+    <link rel="stylesheet" href="/css/recordsave.css">
+    
+    <!--아이콘 사용가능하게 해줌-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+  <div class="contentbox">
+      <header>
+          <div class="headerbox">
+              <div class="researchicon">
+                  <a href="/"><img src="assets/img/Icon_01.svg" alt="Icon"></a>
+              </div>
+              <div class="header-text">새로운 기록</div>
+          </div>
+      </header>
+      
+      <!-- 사진 업로드 섹션 -->
+      <section class="photo-upload">
+          <div class="photo-container">
+              <label for="photo-upload" class="photo-label">
+                  <input type="file" id="photo-upload" accept="image/*">
+                  <div class="photo-placeholder">
+                      <i class="fa fa-plus"></i>
+                  </div>
+              </label>
+          </div>
+      </section>
+
+      <!-- 태그 섹션 -->
+      <section class="tags">
+          <button class="tag"># 즐거움</button>
+          <button class="tag"># 아쉬움</button>
+          <button class="tag"># 편안함</button>
+          <button class="tag-add"><i class="fa fa-plus"></i></button>
+      </section>
+
+      <!-- 입력 필드 -->
+      <section class="input-fields">
+          <div class="input-group">
+              <label for="date"><i class="fa fa-calendar"></i> 날짜</label>
+              <input type="date" id="date">
+          </div>
+          <div class="input-group">
+              <label for="location"><i class="fa fa-map-marker"></i> 위치</label>
+              <input type="text" id="location" placeholder="위치를 입력하세요">
+          </div>
+          <div class="input-group">
+              <label for="content"><i class="fa fa-pencil"></i> 내용</label>
+              <textarea id="content" placeholder="내용을 입력하세요..."></textarea>
+          </div>
+          <div class="input-group">
+              <button class="save-button" onclick="submitForm()">저장하기</button>
+          </div>
+      </section>
+  </div>
+
+  <script>
+      async function submitForm() {
+          const date = document.getElementById('date').value;
+          const location = document.getElementById('location').value;
+          const content = document.getElementById('content').value;
+
+          const formData = new FormData();
+          formData.append('photo_url', '');  // 사진 업로드 기능을 추가하려면, 파일 입력 처리 로직 필요
+          formData.append('date', date);
+          formData.append('location', location);
+          formData.append('content', content);
+
+          const response = await fetch('/records/', {
+              method: 'POST',
+              body: formData
+          });
+
+          if (response.ok) {
+              alert('기록이 저장되었습니다.');
+          } else {
+              alert('기록 저장에 실패했습니다.');
+          }
+      }
+  </script>
+</body>
+
+</html>

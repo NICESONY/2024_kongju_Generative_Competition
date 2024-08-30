@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Moirai+One&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/setup.css">
+    <link rel="stylesheet" href="/css/record_update.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css"> <!-- 새로 추가한 CSS 파일 -->
+    
+    <!-- 자바스크립트 및 스와이퍼 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js" defer></script>
+
+    <!-- 아이콘 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="contentbox">
+        <header>
+            <div class="headerbox">
+                <div class="researchicon">
+                    <a href="/"><img src="assets/img/Icon_01.svg" alt="Icon"></a>
+                </div>
+            </div>
+        </header>
+
+        <!-- 하단메뉴바 -->
+        <div class="menu">
+            <div class="menu-details">
+                <ul>
+                    <li><a href="/"><span class="icon"><i class="fa fa-home"></i></span>Home</a></li>
+                    <li><a href="/"><span class="icon"><i class="fa fa-plane"></i></span>여행가기</a></li>
+                    <li><a href="/"><span class="icon"><i class="fa fa-book"></i></span>기록</a></li>
+                    <li><a href="/"><span class="icon"><i class="fa fa-list"></i></span>예약내역</a></li>
+                    <li><a href="/"><span class="icon"><i class="fa fa-user"></i></span>mypage</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="custom-header">
+            <div class="icon-text">
+                <img src="assets/img/Icon_02.svg" alt="Icon" class="header-icon">
+                <span>대전 성심당</span>
+            </div>
+            <div class="more-options">...</div>
+        </div>
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="assets/img/foodss.png" alt="Image 1"></div>
+                <div class="swiper-slide"><img src="assets/img/foodss.png" alt="Image 2"></div>
+                <div class="swiper-slide"><img src="assets/img/foodss.png" alt="Image 3"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="additional-content">
+            <div class="content-date">
+                <h3>2024.07.14</h3>
+            </div>
+
+                <header>
+                    <div class="headerbox">
+                        <div class="researchicon">
+                            <a href="/"><img src="assets/img/Icon_01.svg" alt="Icon"></a>
+                        </div>
+                    </div>
+                </header>
+            </div>
+            <p>대전에 도착한 갑자기한 상실상에 발품을 많이 다양한 목록을 시작하고, 그 곳에 존재합니다.</p>
+            <p>빠짐 하나 같이 수 있는 좋은 가게나 카페도 반갑게 여유로운 사간을 보냅니다.</p>
+            <p>전에 동아와 말에 방을 불리긴 납니나. 상실상의 말 막 골목목기를 새해기 고급대며, 블록들에 골목 적당합니다.</p>
+        </div>
+    </div>
+
+    <!-- 스크립트 설정 -->
+    <script>
+        var swiper = new Swiper('.mySwiper', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+.contentRecored{
+    width: 100%;
+}
+.Recordlocationbox{
+    margin: auto;
+    width: 88%;
+    height:48px;
+    display: flex;
+    justify-content: flex-start;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    border-bottom:1px solid #E5E1E1;
+}
+.Recordlocation{
+    width: 96px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Recordlocation h5{
+    font-family:'Pretendard-Regular';
+    font-size: 20px;
+    margin: auto;
+}
+.Recordlocation img{
+    width: 26px;
+}
+.Recorddate{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+.Recordphotoul{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 410px;
+    justify-content: space-between;
+
+}
+.Recorddate h5{ 
+    font-family:'Ownglyph_UNZ-Rg';
+    font-size: 24px;
+    padding: 20px 0px 10px 12px;
+    margin: auto;
+    width: 92%;
+    color: #605E5E;
+}
+.RecordphotoBox{
+    width: 100%;
+    position: relative;
+    height: 120px;
+
+}
+.RecordphotoBox img.Recordphotolocationicon{
+    width: 100%;
+    position: absolute
+}
+.RecordphotoBox a{
+    width: 100%;
+    height: 120px;
+
+}
+.recordphotobackground{
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    background-color: #313030 ;
+    opacity: 0.6;
+
+}
+.recordphotoDescription{
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+.Recordphotolocation{
+    height: 60px;
+    width: 88%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin: auto;
+
+}
+.Recordphotolocationbox{
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    vertical-align: middle;
+}
+.Recordphotolocation img{
+    width: 20px;
+}
+#Recordphotolocationboxgap{
+    width: 8px;
+    height: 100%;
+}
+.Recordphotolocationtext{
+    height: 24;
+    font-family:'Ownglyph_ryuttung-Rg';
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+
+}
+.Recorphotoddateul{
+    height: 72px;
+    width: 90%;
+    display:flex; 
+    margin: auto;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.Recorphotoddateul span{
+    height:40px;
+font-family:'Ownglyph_UNZ-Rg';
+font-size: 28px;
+letter-spacing : 1px ;
+color: #ffffff;
+display: inline-flex;
+
+}

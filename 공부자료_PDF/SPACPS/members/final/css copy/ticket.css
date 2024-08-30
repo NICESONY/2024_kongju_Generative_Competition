@@ -1,0 +1,76 @@
+.tophi {
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.hibox {
+
+    margin-bottom: 22px;
+    width: 100%;
+    height: 52px;
+}
+
+.tapbar {
+    width: 100%;
+    height: 50px;
+    border-bottom: #E5E1E1 1px solid;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tappoint {
+    display: flex;
+    margin-left: 24px;
+}
+
+.contentbox .tapbar a.tap {
+    width: 52px;
+    height: 50px;
+    margin: 0px 24px 0px 24px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-content: center;
+}
+
+#today {
+    margin: auto;
+    padding-left: 12px;
+}
+
+.contentbox .tapbar a.tap span {
+    width: 46px;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin: auto;
+    color: #020617;
+}
+
+.ticketBox {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.ticketBox img {
+    width: 100%;
+    margin: auto;
+}
+
+#today {
+    height: 50px;
+    border-bottom: 2px solid #020617;
+}
+
+#savespan {
+    color: #E5E1E1;
+}

@@ -1,0 +1,40 @@
+header{
+    width: 390px;
+    height: 60px;
+    position: fixed;
+    background-color: #fff;
+}
+.headerbox{
+    width:88%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content:center;
+}
+.icon, .icon a{
+    width: 44px;
+    height: 60px;
+display: flex;
+align-items: center;
+
+}
+.icon a img{
+    width: 44px;
+    height: 60px;
+}
+.header-text{
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header-text p{
+    margin: auto;
+    color: black;
+    font-family: 'Pretendard-Regular';
+    font-size: 20px;
+    font-weight: 400;
+}

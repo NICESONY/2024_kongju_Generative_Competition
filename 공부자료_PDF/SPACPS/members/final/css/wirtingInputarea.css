@@ -1,0 +1,117 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contentbox {
+    width: 390px;
+    margin: auto;
+    height: 100%;
+
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+section.tags {
+    width: 88%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: auto;
+
+
+}
+
+button.tag {
+    margin: 4px;
+    width: 76px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 43px;
+    border: 1.5px solid #F29272;
+    color: #F29272;
+    cursor: pointer;
+    background-color: #fff;
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+button.tag-add {
+    width: 30px;
+    height: 30px;
+    background-image: url(../icon/plusicon.svg);
+    background-size: cover;
+    border: none;
+    background-color: #fff;
+}
+
+#notchs {
+    margin: 4px;
+    width: 76px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 43px;
+    border: 1.5px solid #ADAAAA;
+    color: #ADAAAA;
+    cursor: pointer;
+    background-color: #fff;
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container {
+    width: 390px; /* 고정 너비 설정 */
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.color-picker {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.color-button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-field, .textarea {
+    width: 100%; /* 부모 요소의 너비에 딱 맞게 설정 */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.textarea {
+    height: 100px; /* 높이 설정 */
+}
+
+.save-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #F29272;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

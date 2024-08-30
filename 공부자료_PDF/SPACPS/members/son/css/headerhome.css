@@ -1,0 +1,36 @@
+header {
+    z-index: 200;
+    margin: auto;
+    width: 390px;
+    height: 60px;
+    display: flex;
+        position: fixed;
+        top: 0px;
+        float: left ;
+    justify-content: space-between;
+}
+
+.headerbox{
+    margin: auto;
+    width: 88%;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerlogo {
+    display: flex;
+}
+
+.headerlogo a {
+    display: flex;
+    align-content: center;
+}
+.researchicon{
+    display: flex;
+}
+.researchicon a{
+    display: flex;
+    align-content: space-between;
+}

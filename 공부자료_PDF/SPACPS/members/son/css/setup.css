@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contentbox {
+    width: 390px;
+    margin: auto;
+    border: solid 1px black;
+    height: 100%;
+}

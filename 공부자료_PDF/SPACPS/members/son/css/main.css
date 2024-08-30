@@ -1,0 +1,42 @@
+
+/* 하단 메뉴바 만드는 부분 */
+.menu {
+  background-color: #333; /* 배경색을 어둡게 조정 */
+  color: #fff; /* 텍스트 색상을 흰색으로 조정 */
+  padding: 10px 0; /* 상하 패딩 조정 */
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  font-size: 12px; /* 폰트 크기 조정 */
+}
+
+.menu-details ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.menu-details ul li {
+  display: inline-block;
+  margin: 0 10px; /* 좌우 마진 조정 */
+}
+
+.menu-details ul li a {
+  color: #fff; /* 링크 색상을 흰색으로 조정 */
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.icon {
+  display: block;
+  margin-bottom: 5px; /* 아이콘과 텍스트 간격 조정 */
+}
+
+
+
+
+
+

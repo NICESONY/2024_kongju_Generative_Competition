@@ -1,0 +1,83 @@
+
+.photo-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.photo-container {
+    width: 100px;
+    height: 100px;
+    border: 2px dashed #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.photo-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: #ccc;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.tag, .tag-add {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.input-fields {
+    padding: 10px;
+    height: auto;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input, .input-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.input-group textarea {
+    height: 300px; /* 텍스트 입력 필드의 높이 조정 */
+}
+
+
+.save-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f08080; /* 버튼 배경색 */
+    color: white; /* 버튼 텍스트 색 */
+    border: none; /* 테두리 없음 */
+    border-radius: 5px; /* 둥근 테두리 */
+    cursor: pointer; /* 커서 포인터 */
+    font-size: 16px; /* 텍스트 크기 */
+}
+
+.save-button:hover {
+    background-color: #e07070; /* 호버 시 버튼 배경색 */
+}

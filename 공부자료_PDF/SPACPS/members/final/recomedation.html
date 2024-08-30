@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" as="style" crossorigin
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/setup.css">
+    <link rel="stylesheet" href="/css/headerrecomedation.css">
+    <link rel="stylesheet" href="/css/recomedation.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- 자바스크립트 및 스와이퍼 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/js/swiperrecomedation.js" defer></script>
+
+    <!-- 아이콘 -->
+</head>
+
+
+<!-- Header -->
+<div class="contentbox">
+    <div id="backgroundcolortop">
+        <header>
+            <div class="headerbox">
+                <div class="headerlogo">
+                    <a href="#"><img src="/assets/logo/logo.svg" alt="Logo"></a>
+                </div>
+                <div class="researchicon">
+                    <a href="#"><img src="/assets/header/search-sm.svg" alt="Search"></a>
+                    <a href="#"><img src="/assets/header/heart.svg" alt="Heart"></a>
+                </div>
+            </div>
+        </header>
+        <!-- New Section with Icon and Text -->
+        <div class="locationbox">
+            <div class="locationboxcontaint">
+                <img src="/assets/img/icon/recommend/recommend/marker.svg" alt="Location Icon">
+                <h4>대전</h4>
+                <img src="/assets/img/icon/Iconset/chevron-left.svg" alt="Location Icon">
+            </div>
+        </div>
+
+        <!-- 추가 텍스트 섹션 -->
+        <div class="text-section">
+            <p>이번 방문의 애착장소 후보!</p>
+        </div>
+
+        <div class="swiper-container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="/assets/img/photo_illust/recommend/home/swiperrecommend.svg"
+                            alt="Image 1"></div>
+                    <div class="swiper-slide"><img src="/assets/img/photo_illust/recommend/home/swiperrecommend.svg"
+                            alt="Image 2"></div>
+                    <div class="swiper-slide"><img src="/assets/img/photo_illust/recommend/home/swiperrecommend.svg"
+                            alt="Image 3"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 추가 컨텐츠 섹션 -->
+    <div class="additional-content">
+        <h2>딱 맞는 장소와 컨텐츠!</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="/assets/img/photo_illust/recommend/home/newcontent01.svg" alt="Sample Image 1">
+                <div class="card-text">
+                    <p>하레하레에서 대표적인 소금빵을 맛보는 건 어떤가요?</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/img/photo_illust/recommend/home/newcontent04.svg" alt="Sample Image 2">
+                <div class="card-text">
+                    <p>다다르다에서 '인간실격' 책을 읽어봐요.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/img/photo_illust/recommend/home/newcontent02.svg" alt="Sample Image 3">
+                <div class="card-text">
+                    <p>이번 무료전시인 '공동의 감각'을 둘러보는 걸 추천드릴게요!</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/img/photo_illust/recommend/home/newcontent03.svg" alt="Sample Image 4">
+                <div class="card-text">
+                    <p>담온식당에서 인기 있는 '연어장 정식'을 먹어보는 건 어때요?</p>
+                </div>
+            </div>
+        </div>
+        <div class="more-button">
+            <a href="#">더보기</a>
+        </div>
+    </div>
+    <div class="last_background">
+        <!-- 지현 님만을 위한 장소 섹션 -->
+        <div class="recommendation_background">
+            <div class="personal-recommendation">
+                <div class="Textdoxpersonal">
+                    <h2 id="username">지현</h2>
+                    <h2>님만을 위한 장소</h2>
+                </div>
+                <p>추천 장소들을 둘러보아요!</p>
+            </div>
+            <div class="swiper-container personal-swiper">
+                <div class="swiper-wrapper 1">
+                    <div class="swiper-slide"id="personalcaption">
+                        <img id="img1"src="assets/img/photo_illust/recommend/home/video_collect 01.svg" alt="추천 이미지 1">
+                        <div class="backgroundblack">
+                        </div>
+                        <div class="backgroundcpation">
+                            <div class="cpation1"></div>
+                            <div class="cpation2">
+                                <img src="/assets/img/icon/recorde/home/chevron-left.svg">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide"><img src="{{ gif_path }}"
+                            alt="추천 이미지 3"></div>
+                    <div class="swiper-slide"><img src="/assets/img/photo_illust/recommend/home/video_collect 03.svg"
+                            alt="추천 이미지 4"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 새로운 도시로 떠나볼까요? 섹션 -->
+    <div class="new-city-section">
+        <div class="text_boxlocation">
+            <h2>새로운 도시로 떠나볼까요?</h2>
+            <p>자주 가시는 대전시를 중심으로 찾아봤어요</p>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <img src="/assets/img/photo_illust/recommend/home/newcity01.svg" alt="청주시 이미지">
+                <div class="card-text">
+                    <p>국립현대미술관에서 '디지털스토리전시'를 관람하는 것은 어떤가요?</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/img/photo_illust/recommend/home/newcity02.svg" alt="청주시 이미지">
+                <div class="card-text">
+                    <p>분위기가 고즈넉한 휴게문고에서 독서와 함께 커피 한잔 어떠세요?</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/img/photo_illust/recommend/home/newcity03.svg" alt="청주시 이미지">
+                <div class="card-text">
+                    <p>자연과 함께 힐링을 둘러보며 산책 어떠세요?</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/assets/img/photo_illust/recommend/home/newcity04.svg" alt="청주시 이미지">
+                <div class="card-text">
+                    <p>강과 함께 핀 꽃을 주변으로 함께 산책하며 여유를 느껴봐요.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 조금 더 나아가볼까요? 섹션 -->
+    <div class="explore-more-section">
+
+
+
+        <div class="explore-more-section2">
+            <!-- <img id="exploreimg" src="assets/img/photo_illust/recommend/home/deco_sejong.svg">-->
+            <h2>조금 더 나아갈까요?</h2>
+            <p id="text_decoo">대전시 옆 '세종시'의 장소를 추천해요</p>
+            <div class="cards">
+                <div class="card">
+                    <img src="/assets/img/photo_illust/recommend/home/sejong01.svg" alt="세종시 이미지 1">
+                    <div class="card-text">
+                        <p>어반라운지에서 감성적인 음악을 들으며 여유를 즐겨요!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/img/photo_illust/recommend/home/sejong04.svg" alt="세종시 이미지 2">
+                    <div class="card-text">
+                        <p>이름도만 진행하는 '조치원 복숭아 축제'를 같이 즐겨요</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/img/photo_illust/recommend/home/sejong02.svg" alt="세종시 이미지 3">
+                    <div class="card-text">
+                        <p>날씨 좋은 날 호수공원을 노래를 들으며 산책해요!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/assets/img/photo_illust/recommend/home/sejong03.svg" alt="세종시 이미지 4">
+                    <div class="card-text">
+                        <p>여유롭게 3권을 읽어보는 건 어떤가요?</p>
+                    </div>
+                </div>
+            </div>
+            </divs>
+
+        </div>
+        <div id="footer"></div>
+        <div class="nav">
+            <div class="nav-details">
+                <div class="icon">
+                    <a id="navhome" href="/">
+                        <div class="section_nav"><img src="/assets/nav/home-line.svg" alt="Image 1"></div>
+                        <p>홈</p>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a id="navgood" href="/recomedation">
+                        <div class="section_nav"><img src="/assets/nav/navigation-pointer-01.svg" alt="Image 1"></div>
+                        <p>추천</p>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a id="navrecorde" href="/recordhome">
+                        <div class="section_nav"><img src="/assets/nav/pencil-02.svg" alt="Image 1">
+                        </div>
+                        <p>기록</p>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a id="navticket" href="/ticket">
+                        <div class="section_nav"><img src="/assets/nav//ticket-01.svg" alt="Image 1">
+                        </div>
+                        <p>예약</p>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a id="navmypage" href="/mypage">
+                        <div class="section_nav"><img src="/assets/nav/user-03.svg" alt="Image 1">
+                        </div>
+                        <p>설정</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 하단메뉴바 -->
+</div>
+<script>
+    function showContent(id) {
+        // 모든 콘텐츠를 숨김
+        var contents = document.querySelectorAll('.tab-content');
+        contents.forEach(function (content) {
+            content.classList.remove('active');
+        });
+
+        // 클릭된 탭의 콘텐츠를 표시
+        var activeContent = document.getElementById(id);
+        if (activeContent) {
+            activeContent.classList.add('active');
+        }
+    }
+
+    // Swiper 초기화
+    var swiper = new Swiper('.personal-swiper', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        loop: true,
+    });
+</script>
+</body>
+
+</html>

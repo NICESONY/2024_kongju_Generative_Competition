@@ -1,0 +1,272 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #FCEAE5; /* 배경색을 핑크색으로 설정 */
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerbox {
+    margin: auto;
+    width: 88%;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerlogo {
+    display: flex;
+}
+
+.headerlogo a {
+    display: flex;
+    align-content: center;
+}
+
+.researchicon {
+    display: flex;
+    gap: 20px; /* 아이콘 사이의 거리 조절 */
+}
+
+.researchicon a {
+    display: flex;
+    align-items: center;
+}
+
+.locationbox {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px; /* 아이콘과 텍스트 사이의 거리 조절 */
+}
+
+.locationbox a img {
+    height: 24px; /* 아이콘 크기 조절 */
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.locationbox span {
+    font-family: 'Pretendard-Regular';
+    font-size: 18px; /* 텍스트 크기 조절 */
+    margin-bottom: 10px;
+}
+
+.swiper {
+    width: 100%;
+    height: 400px; /* 슬라이더의 높이, 필요에 따라 조정 */
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box; /* 패딩을 포함하여 전체 폭이 100%가 되도록 설정 */
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* 이미지를 중앙에 배치 */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+    margin-right: 10px; /* 슬라이드 사이의 오른쪽 마진 */
+    margin-left: 10px; /* 슬라이드 사이의 왼쪽 마진 */
+}
+
+.slide-content {
+    background-color: #FCEAE5;
+    padding: 20px;
+    border-radius: 20px; /* 콘텐츠 박스의 둥근 모서리 */
+}
+
+.rounded-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20px; /* 이미지의 둥근 모서리 */
+}
+
+.swiper-slide img {
+    display: block;
+    width: calc(100% - 20px); /* 이미지의 폭을 슬라이드 마진을 뺀 만큼 조정 */
+    height: auto; /* 이미지의 비율을 유지합니다. */
+}
+
+/* 추가 텍스트 섹션 스타일 */
+.text-section {
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Pretendard-Regular';
+    font-size: 22px;
+    color: #333;
+    font-weight: bold; /* 볼드체로 설정 */
+}
+
+/* Swiper pagination 아래 마진 추가 */
+.swiper-pagination {
+    margin-top: 20px;
+    position: relative; /* 기본 위치에서 이동하지 않도록 설정 */
+}
+
+.additional-content {
+    margin: 20px 15px; /* 상하 좌우 여백 */
+    margin-bottom: 20px;
+}
+
+.additional-content h2 {
+    font-family: 'Pretendard-Regular';
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* 카드 사이의 거리 조절 */
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(50% - 7.5px); /* 두 카드가 한 줄에 나란히 위치하도록 설정 */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-text {
+    padding: 10px;
+}
+
+.card-text h3 {
+    font-family: 'Pretendard-Regular';
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.card-text p {
+    font-family: 'Pretendard-Regular';
+    font-size: 14px;
+    color: #666;
+}
+
+.swipers {
+    width: 100%;
+    height: 100px; /* 슬라이더의 높이를 조정 */
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box; /* 패딩을 포함하여 전체 폭이 100%가 되도록 설정 */
+    background-color: #963115; /* 배경색을 핑크색으로 설정 */
+    border-radius: 20px; /* 섹션의 둥근 모서리 */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.swipers .swiper-wrapper {
+    height: 100%;
+}
+
+.swipers .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* 이미지를 중앙에 배치 */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+    margin-right: 10px; /* 슬라이드 사이의 오른쪽 마진 */
+    margin-left: 10px; /* 슬라이드 사이의 왼쪽 마진 */
+    border-radius: 20px; /* 슬라이드의 둥근 모서리 */
+    overflow: hidden; /* 둥근 모서리가 적용된 부분의 이미지가 넘치지 않도록 설정 */
+}
+
+.swipers .swiper-slide img {
+    display: block;
+    width: 100%; /* 이미지의 폭을 슬라이드에 맞춤 */
+    height: auto; /* 이미지의 비율을 유지 */
+    border-radius: 20px; /* 이미지의 둥근 모서리 */
+    object-fit: cover; /* 이미지가 슬라이드 영역을 채우도록 설정 */
+}
+
+/* 하단 메뉴바 스타일 */
+.menu {
+    background-color: #FCEAE5; /* 배경색을 조정 */
+    color: #000000; /* 텍스트 색상을 조정 */
+    padding: 16px 12px; /* 상하 패딩 조정 */
+    position: fixed;
+    width: 390px;
+    margin: auto;
+    bottom: 0;
+    font-size: 12px; /* 폰트 크기 조정 */
+    z-index: 1000; /* 다른 요소들보다 앞에 위치시키기 위해 z-index 설정 */
+    border-bottom-left-radius: 50px; /* 왼쪽 아래 끝을 둥글게 만듦 */
+    border-bottom-right-radius: 50px; /* 오른쪽 아래 끝을 둥글게 만듦 */
+}
+
+.menu-details ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu-details ul li {
+    display: inline-block;
+    margin: 0 22px; /* 좌우 마진을 22px로 조정하여 간격을 더 넓힘 */
+}
+
+.menu-details ul li a {
+    color: #0c0c0c; /* 링크 색상을 조정 */
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.menu-details ul li a .menu-text {
+    font-weight: bold; /* 텍스트를 진하게 설정 */
+}
+
+.icon {
+    display: block;
+    margin-bottom: 5px; /* 아이콘과 텍스트 간격 조정 */
+}

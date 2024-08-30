@@ -1,0 +1,728 @@
+
+#backgroundcolortop{
+    width: 390px;
+    height: 395px;
+    background-color: #FFF8F6;
+}
+.locationbox {
+    width: 390px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    /* 아이콘과 텍스트 사이의 거리 조절 */
+}
+
+.locationboxcontaint {
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100px;
+    height: 30px;
+}
+
+.locationboxcontaint img {
+    height: 24px;
+}
+
+.locationboxcontaint h4 {
+    width: 70px;
+    height: 26px;
+    font-family: 'Pretendard';
+    font-size: 20px;
+    /* 텍스트 크기 조절 */
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+.text-section {
+    margin: auto;
+    width: 90%;
+    font-family: 'Pretendard';
+    font-size: 22px;
+    color: #2A2423;
+    font-weight: 700;
+
+}
+
+.swiper-container {
+    margin: auto;
+    width: 90%;
+    display: flex;
+}
+
+.swiper {
+    margin-top:18px;
+    width: 100%;
+    height: 210px;
+
+    /* 슬라이더의 높이, 필요에 따라 조정 */
+}
+
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
+    /* 세로 중앙 정렬 */
+    justify-content: center;
+    /* 가로 중앙 정렬 (슬라이드가 하나일 경우 유용) */
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    /* 이미지를 중앙에 배치 */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-right: 10px;
+    /* 슬라이드 사이의 오른쪽 마진 */
+    margin-left: 10px;
+    /* 슬라이드 사이의 왼쪽 마진 */
+}
+
+.rounded-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    /* 이미지의 둥근 모서리 */
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    /* 이미지의 폭을 슬라이드 마진을 뺀 만큼 조정 */
+    height: auto;
+    /* 이미지의 비율을 유지합니다. */
+}
+
+.swiper-pagination {
+    margin-top: 20px;
+    width: 30px;
+}
+.swiper .swiper-pagination-bullet {
+    background-color: #F29272;
+}
+
+.additional-content {
+    margin: 20px 15px;
+    /* 상하 좌우 여백 */
+    margin-bottom: 20px;
+}
+
+.additional-content h2 {
+    font-family: 'Pretendard';
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    /* 카드 사이의 거리 조절 */
+}
+
+.card {
+
+    border-radius: 8px;
+    overflow: hidden;
+    width: calc(50% - 7.5px);
+    /* 두 카드가 한 줄에 나란히 위치하도록 설정 */
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card-text {
+    padding: 10px 0px;
+}
+
+.card-text h3 {
+    font-family: 'Pretendard';
+    font-size: 16px;
+    color: #2A2423;
+    margin-bottom: 5px;
+}
+
+.card-text p {
+    font-family: 'Pretendard';
+    font-size: 13px;
+    color: #313030;
+}
+.more-button {
+    text-align: center;
+}
+.more-button a {
+    margin-top: 20px;
+    width: 100%;
+    height:38px ;
+    display: inline-block;
+    padding: 10px 60px;
+    /* 가로 패딩을 조정하여 버튼 크기를 설정 */
+    font-family: 'Pretendard';
+    font-size: 16px;
+    color: #313030;
+    background-color: #ffffff;
+    border: 1px solid #313030;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+/* 지현 님만을 위한 장소 섹션 */
+.recommendation_background {
+    /* 배경색을 핑크색으로 설정 */
+    padding: 10px 18px;
+    width: 90%;
+    margin: auto;
+}
+#personalcaption{
+    display: flex;
+    position: relative;
+    top: 0;
+}
+.caption{
+    width:284px;
+    height: 424.65px;
+    background-color: linear-gradient(rgba(83,67,63,0),rgba(57,46,43,100));
+}
+.personal-recommendation {
+    width: 90%;
+    height: 100%;
+    margin-bottom:  20px;
+}
+
+.swiper-slide
+.personal-recommendation h2{
+    display: flex;
+    justify-content: start;
+    margin-bottom:4px;
+}
+.personal-swiper .swiper-slide {
+    display: flex;
+
+}
+
+.personal-swiper .swiper-slide img {
+    max-width: 100%;
+    height: auto;
+
+
+}
+.new-city-section{
+    margin-top: 100px;
+    width: 90%;
+    margin: auto;
+}
+
+/* 새로운 도시로 떠나볼까요? 섹션 스타일 */
+.last_background {
+    background-color: #FFF8F6;
+    /* 배경색을 핑크색으로 설정 */
+    margin-top: 40px;
+    padding-top: 30px;
+    padding-bottom:40px ;
+    width: 100%;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.Textdoxpersonal{
+display: flex;
+}
+.text_boxlocation{
+    margin-bottom: 14px;
+}
+.new-city-section h2 {
+    font-family: 'Pretendard';
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.more-filter-container {
+    background-color: #FFF;
+    /* 배경색을 핑크색으로 설정 */
+}
+
+.city-filter-container {
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    /* 필터 컨테이너를 둥글게 설정 */
+}
+
+.city-filter {
+    display: flex;
+    flex-wrap: nowrap;
+    /* Wrap 설정을 해제하여 스크롤이 가능하도록 합니다. */
+    overflow-x: auto;
+    /* 가로 스크롤을 활성화합니다. */
+    gap: 10px;
+    justify-content: center;
+}
+
+.filter-button {
+    padding: 10px 15px;
+    font-family: 'Pretendard';
+    font-size: 14px;
+    color: #4b4a4a;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.city-recommendation-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+
+.city-recommendation-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.city-recommendation-item h3 {
+    font-family: 'Pretendard';
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+
+.explore-more-section {
+    width: 100%;
+    background-color: #FFF8F6;
+    padding-top:80px;
+    padding-bottom: 100px;
+}
+.explore-more-section2{
+    width: 90%;
+margin: auto;
+
+}
+.explore-more-section2 h2{
+    margin-bottom: 10px;
+
+}
+.explore-more-header {
+    position: relative;
+    /* 텍스트와 이미지 컨테이너를 상대 위치로 설정 */
+}
+#exploreimg{
+    width: 100%;
+    z-index: 400;
+}
+.explore-more-header img.explore-more-icon {
+    position: absolute;
+    /* 절대 위치로 설정 */
+    top: -10px;
+    right: -10px;
+    width: 60px;
+    /* 너비를 조정 */
+    height: auto;
+    /* 높이를 자동으로 설정하여 비율 유지 */
+}
+
+.explore-more-header h2 {
+    font-family: 'Pretendard';
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+    top:0px
+}
+#exploreimg{
+
+}
+#text_decoo{
+    font-family: 'Pretendard';
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.explore-more-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.explore-more-item {
+    background-color: #FFF8F6;
+    border-radius: 5px;
+    overflow: hidden;
+    flex: 0 0 calc(50% - 15px);
+
+    /* 두 개의 카드가 한 줄에 배치되도록 설정 */
+}
+
+.explore-more-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.explore-more-item h3 {
+    font-family: 'Pretendard';
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+
+.more-buttons-back {
+    background-color: #FFF8F6;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 0;
+    /* 위아래 여백을 추가하여 버튼과 콘텐츠 사이의 간격을 유지 */
+}
+
+.more-buttons {
+    text-align: center;
+}
+
+.more-buttons a {
+    display: inline-block;
+    padding: 10px 60px;
+    /* 가로 패딩을 조정하여 버튼 크기를 설정 */
+    font-family: 'Pretendard';
+    font-size: 16px;
+    color: #333;
+    background-color: #FFF8F6;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.more-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.more-buttons a {
+    display: inline-block;
+    padding: 10px 170px;
+    /* 가로 패딩을 넓혀서 텍스트가 가로로 표시되도록 함 */
+    font-family: 'Pretendard';
+    font-size: 14px;
+    color: #333;
+    background-color: #FFF8F6;
+    border: 1px solid #040404;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.menu {
+    background-color: #FCEAE5;
+    /* 배경색을 조정 */
+    color: #000000;
+    /* 텍스트 색상을 조정 */
+    padding: 16px 12px;
+    /* 상하 패딩 조정 */
+    position: fixed;
+    width: 100%;
+    max-width: 390px;
+    margin: auto;
+    bottom: 0;
+    font-size: 12px;
+    /* 폰트 크기 조정 */
+    z-index: 1000;
+    /* 다른 요소들보다 앞에 위치시키기 위해 z-index 설정 */
+}
+
+.menu-details ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu-details ul li {
+    display: inline-block;
+    margin: 0 22px;
+    /* 좌우 마진을 22px로 조정하여 간격을 더 넓힘 */
+}
+
+.menu-details ul li a {
+    color: #0c0c0c;
+    /* 링크 색상을 조정 */
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.menu-details ul li a .menu-text {
+    font-weight: bold;
+    /* 텍스트를 진하게 설정 */
+}
+
+.icon {
+    display: block;
+    margin-bottom: 5px;
+    /* 아이콘과 텍스트 간격 조정 */
+}
+
+.tab-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    /* 탭들이 한 줄에 표시되도록 설정 */
+    gap: 10px;
+    /* 탭 사이의 간격 조절 */
+    padding: 10px 0;
+    /* 위아래 패딩 */
+    -webkit-overflow-scrolling: touch;
+    /* 터치 기기에서 부드러운 스크롤링 */
+}
+
+.tab {
+    flex: 0 0 auto;
+    /* 탭이 늘어나지 않도록 설정 */
+    padding: 10px 20px;
+    /* 각 탭 내부 패딩 */
+    font-family: 'Pretendard', sans-serif;
+    font-size: 16px;
+    background-color: #ffffff;
+    /* 탭 배경색 */
+    border: 1px solid #ccc;
+    /* 탭 테두리 (선택적) */
+    border-radius: 5px;
+    /* 탭 둥근 모서리 */
+    cursor: pointer;
+    /* 호버 시 포인터 커서 */
+    user-select: none;
+    /* 텍스트 선택 방지 */
+}
+
+/* 활성 탭 스타일 */
+.tab.active {
+    background-color: #f0f0f0;
+    border-color: #b0b0b0;
+}
+
+.city-filter-container {
+    display: flex;
+    justify-content: space-between;
+    /* 탭과 검색 아이콘을 양쪽 끝에 배치 */
+    align-items: center;
+    /* 수직 중앙 정렬 */
+    padding: 10px;
+    /* 전체 컨테이너 패딩 */
+}
+
+.tab-container {
+    display: flex;
+}
+
+.tab {
+    margin-right: 10px;
+    /* 탭 사이의 간격 */
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    font-family: 'Pretendard';
+    font-size: 16px;
+    border-radius: 5px;
+    /* 모서리를 둥글게 */
+}
+
+.tab:hover {
+    background-color: #e0e0e0;
+}
+
+.tab.active {
+    background-color: #f08a5d;
+    color: #fff;
+}
+
+.search-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.tab-content {
+    display: none;
+    /* 기본적으로 콘텐츠를 숨김 */
+    padding: 10px;
+    background-color: #f8e9e9;
+    margin-top: 10px;
+}
+
+.tab-content.active {
+    display: block;
+    /* 활성화된 탭의 콘텐츠를 표시 */
+}
+
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 0;
+    background-color: #f8e9e9;
+    border-radius: 10px;
+}
+
+.scroll-item {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    font-family: 'Pretendard';
+    font-size: 16px;
+    border-radius: 20px;
+    /* 모서리를 둥글게 */
+    white-space: nowrap;
+}
+
+.scroll-item:last-child {
+    margin-right: 0;
+}
+
+.scroll-item.active {
+    background-color: #f08a5d;
+    color: #fff;
+}
+
+.tab-container {
+    display: flex;
+}
+
+.tab-container input[type="radio"] {
+    display: none;
+    /* 실제 라디오 버튼을 숨김 */
+}
+
+.tab-container label {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    font-family: 'Pretendard';
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.tab-container input[type="radio"]:checked+label {
+    background-color: #f08a5d;
+    color: #fff;
+    position: relative;
+}
+
+.tab-container input[type="radio"]:checked+label:before {
+    content: "\f058";
+    /* FontAwesome 체크 아이콘 */
+    font-family: "Font Awesome 5 Free";
+    color: white;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+}
+
+.tab-content {
+    display: none;
+    /* 기본적으로 모든 탭 내용 숨김 */
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.city-info {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    /* 사각형 모양으로 둥근 모서리를 적용 */
+    text-align: center;
+    font-size: 16px;
+}
+
+/* 원형 스타일을 적용하고 싶은 경우 */
+.city-info.circle {
+    border-radius: 50%;
+    /* 원 모양 */
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.personal-recommendation-swiper {
+    width: 100%;
+    height: auto;
+    /* 슬라이드 높이 자동 조정 */
+}
+
+.personal-swiper-slide {
+    text-align: center;
+    /* 텍스트 중앙 정렬 */
+    display: flex;
+    justify-content: center;
+    /* 가로 방향 중앙 정렬 */
+    align-items: center;
+    /* 세로 방향 중앙 정렬 */
+}
+
+.personal-swiper-slide img {
+    max-width: 100%;
+    /* 이미지가 슬라이드 너비를 넘지 않도록 */
+    max-height: 100%;
+    /* 이미지가 슬라이드 높이를 넘지 않도록 */
+    object-fit: contain;
+    /* 이미지 비율 유지 */
+}
+
+.personal-swiper-slide img {
+    width: 100%;
+    /* 이미지 너비를 슬라이드에 맞춤 */
+    height: auto;
+    /* 이미지 높이를 자동으로 조정 */
+    object-fit: contain;
+    /* 이미지가 잘리지 않고 비율을 유지하면서 맞춰짐 */
+}
+
+.personal-swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    /* 페이지네이션을 슬라이더 하단에 위치 */
+    left: 50%;
+    transform: translateX(-50%);
+    /* 중앙 정렬 */
+    z-index: 10;
+    /* 페이지네이션을 슬라이드 위로 */
+}
+#footer{
+    height: 30px;
+}

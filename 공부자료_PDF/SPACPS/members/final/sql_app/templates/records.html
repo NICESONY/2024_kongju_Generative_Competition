@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Records</title>
+    <style>
+        .completion-message {
+            font-size: 2em;
+            color: green;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Records</h1>
+    <div class="completion-message">입력이 완료되었습니다!</div>
+    <ul>
+        {% for record in records %}
+        <li>
+            <p>Date: {{ record.date }}</p>
+            <p>Location: {{ record.location }}</p>
+            <p>User ID: {{ record.user_id }}</p>
+            <p>Title: {{ record.title }}</p>
+            <p>Hashtag: {{ record.hashtag }}</p>
+            <p>Content: {{ record.content }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
