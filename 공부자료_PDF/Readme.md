@@ -7,3 +7,13 @@
                                             핵심 로직
 
 ## 먼저 text 와 tmage를 주고 video를 만드는 방식 -> multi-model 
+
+
+
+
+                                              관련 huggingface code
+
+
+## https://huggingface.co/weights/stable-video-diffusion-img2vid-xt-1-1
+
+## https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt
