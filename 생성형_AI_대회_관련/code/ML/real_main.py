@@ -62,6 +62,9 @@ async def create_record(
 
     import sys
     print(1) 
+    
+    
+    
     sys.path.append("/root/naver/members/soo/pipeline")
     print(2)
     

@@ -5,6 +5,7 @@ from PIL import Image
 from decord import VideoReader, cpu
 import torch
 import numpy as np
+
 # fix seed
 torch.manual_seed(0)
 

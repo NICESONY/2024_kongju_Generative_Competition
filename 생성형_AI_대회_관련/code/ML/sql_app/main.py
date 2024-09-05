@@ -64,8 +64,6 @@ async def create_record(
     print(1) 
     sys.path.append("/root/naver/members/soo/pipeline")
     print(2)
-    
-    
     from pipe import main_pipe
     print(3)
 
