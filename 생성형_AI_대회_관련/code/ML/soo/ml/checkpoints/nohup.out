@@ -1,0 +1,64 @@
+Error: Failed to call git rev-parse --git-dir: exit status 128 
+Git LFS initialized.
+Cloning into 'blip-itm-base-coco'...
+Filtering content: 100% (2/2), 1.66 GiB | 13.13 MiB/sFiltering content: 100% (2/2), 1.66 GiB | 1.49 MiB/s, done.
+Error: Failed to call git rev-parse --git-dir: exit status 128 
+Git LFS initialized.
+Cloning into 'llama-3-Korean-Bllossom-8B'...
+Cloning into 'LongVA-7B-DPO'...
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+fatal: the remote end hung up unexpectedly
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+fatal: the remote end hung up unexpectedly
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+Error: Failed to call git rev-parse --git-dir: exit status 128 
+Git LFS initialized.
+down.sh: line 6: https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0: No such file or directory
+Error: Failed to call git rev-parse --git-dir: exit status 128 
+Git LFS initialized.
+Cloning into 'LongVA-7B'...
+Filtering content:  40% (2/5), 1.01 GiB | 2.17 MiB/sFiltering content:  40% (2/5), 1.55 GiB | 939.00 KiB/sFiltering content:  60% (3/5), 1.55 GiB | 939.00 KiB/sFiltering content:  60% (3/5), 2.15 GiB | 1.26 MiB/s  Filtering content:  80% (4/5), 2.15 GiB | 1.26 MiB/sFiltering content:  80% (4/5), 2.78 GiB | 1.61 MiB/sFiltering content: 100% (5/5), 2.78 GiB | 1.61 MiB/sFiltering content: 100% (5/5), 2.78 GiB | 1.61 MiB/s, done.
+Encountered 3 file(s) that may not have been copied correctly on Windows:
+	model-00001-of-00004.safetensors
+	model-00002-of-00004.safetensors
+	model-00003-of-00004.safetensors
+
+See: `git lfs help smudge` for more details.
+Cloning into 'stable-video-diffusion-img2vid-xt'...
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+
+Exiting because of "interrupt" signal.
+Cloning into 'stable-video-diffusion-img2vid-xt'...
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+fatal: the remote end hung up unexpectedly
+warning: Clone succeeded, but checkout failed.
+You can inspect what was checked out with 'git status'
+and retry with 'git restore --source=HEAD :/'
+
+Cloning into 'stable-video-diffusion-img2vid-xt'...
+Filtering content:  22% (2/9), 204.24 MiB | 1.09 MiB/sFiltering content:  22% (2/9), 577.14 MiB | 2.53 MiB/sFiltering content:  33% (3/9), 577.14 MiB | 2.53 MiB/sFiltering content:  33% (3/9), 1.74 GiB | 1.82 MiB/s  Filtering content:  44% (4/9), 1.74 GiB | 1.82 MiB/sFiltering content:  44% (4/9), 4.09 GiB | 1.68 MiB/sFiltering content:  55% (5/9), 4.09 GiB | 1.68 MiB/sFiltering content:  55% (5/9), 6.93 GiB | 925.00 KiB/sFiltering content:  66% (6/9), 6.93 GiB | 925.00 KiB/sFiltering content:  66% (6/9), 8.61 GiB | 94.00 KiB/s Filtering content:  77% (7/9), 8.61 GiB | 94.00 KiB/sFiltering content:  77% (7/9), 9.46 GiB | 242.00 KiB/sFiltering content:  88% (8/9), 9.46 GiB | 242.00 KiB/sFiltering content:  88% (8/9), 10.36 GiB | 410.00 KiB/sFiltering content: 100% (9/9), 10.36 GiB | 410.00 KiB/sFiltering content: 100% (9/9), 10.36 GiB | 1.84 MiB/s, done.
+Encountered 3 file(s) that may not have been copied correctly on Windows:
+	unet/diffusion_pytorch_model.safetensors
+	svd_xt_image_decoder.safetensors
+	svd_xt.safetensors
+
+See: `git lfs help smudge` for more details.

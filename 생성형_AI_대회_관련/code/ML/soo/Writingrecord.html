@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--css-->
+    <link rel="stylesheet" href="./css/setup.css">
+    <link rel="stylesheet" href="./css/headersubpage.css">
+    <link rel="stylesheet" href="./css/wirtingInputarea.css">
+    <link rel="stylesheet" href="./css/writingcard.css">
+    <!--js-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/wirtingswiper.js" defer></script>
+</head>
+
+<body>
+    <div class="contentbox">
+        <header>
+            <div class="headerbox">
+                <div class="icon">
+                    <a href="/"><img src="./icon/leading-iconnewrecord.svg" alt="Icon"></a>
+                </div>
+                <div class="header-text">
+                    <p>새로운 기록</p>
+                </div>
+                <div class="icon">
+                    <a href="/"><img src="./icon/trailing-iconnewrecord.svg" alt="Icon"></a>
+                </div>
+            </div>
+        </header>
+        <div class="topgap"></div>
+        <div class="swiper">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="swipercontent">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swipercontent"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swipercontent">
+                            <div class="imgupload">
+                                <label for="photo-upload" class="photo-label">
+                                    <input type="file" id="photo-upload" accept="image/*">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+        </div>
+        <section class="tags">
+            <button class="tag"># 즐거움</button>
+            <button class="tag" id="notchs"># 아쉬움</button>
+            <button class="tag"># 편안함</button>
+            <button class="tag-add"><i class="fa fa-plus"></i></button>
+        </section>
+
+        <div class="container">
+            <input type="text" placeholder="날짜"  class="input-field">
+            <input type="text" placeholder="위치" class="input-field">
+            <input type="text" placeholder="작성자" class="input-field">
+            <textarea placeholder="내용을 입력하세요..." class="textarea"></textarea>
+            <button class="save-button">저장하기</button>
+        </div>
+        <script src="script.js"></script>
+</body>
+</div>
+
+</html>
