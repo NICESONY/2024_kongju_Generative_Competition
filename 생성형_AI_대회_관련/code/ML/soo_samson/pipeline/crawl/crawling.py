@@ -12,7 +12,7 @@ import random
 def extract_locations(script):
 
     locations = []
-    tmis=[]
+    tmis = []
 
 
     start_keyword = '추천 장소: '

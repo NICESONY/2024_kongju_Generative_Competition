@@ -63,25 +63,25 @@ def main_pipe(user_name2="A",tit=None,hash=None,content=None,input_prompt2="관�
              # 유저가 게시글을 쓰고 전체화면 촬영되어서 나온이미지 
             input_prompt=input_prompt2 # 비디오에 나왔으면 하는 효과
 
-            steps2=5
-            scale2=9.0
+            steps2 = 5
+            scale2 = 9.0
             #user_name=f"records/{user_name}"
 
-            num=int(random.random()*100)
+            num = int(random.random()*100)
 
             if os.path.exists(user_name):
                   user_name=user_name+f"_{num}"
 
-            A="/root/naver/members/soo/pipeline"
-            user_name=A+user_name
-            os.makedirs(user_name,exist_ok=True)
+            A = "/root/naver/members/soo/pipeline"
+            user_name = A+user_name
+            os.makedirs(user_name,exist_ok = True)
 
             if input_prompt.find(".")>-1:
                   pass
             else:
                   input_prompt+="."
 
-            texts=ocr_img(input_path)
+            texts = ocr_img(input_path)
             
             texts2=recommending(texts)
             
