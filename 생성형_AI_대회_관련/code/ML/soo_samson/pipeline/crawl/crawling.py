@@ -9,6 +9,7 @@ import os
 import random
 
 
+
 def extract_locations(script):
 
     locations = []
@@ -21,38 +22,41 @@ def extract_locations(script):
     print(script)
     
 
-    for line in lines:
+    for line in lines :
 
 
-        if start_keyword in line:
+        if start_keyword in line :
             
-            start_index = line.index(start_keyword)+2 + len(start_keyword)
+            start_index = line.index(start_keyword) + 2 + len(start_keyword)
             location = line[start_index:].strip()
             locations.append(location)
 
-        elif start_keyword2 in line:
-            start_index = line.index(start_keyword2)+2 + len(start_keyword2)
+        elif start_keyword2 in line :
+            
+            start_index = line.index(start_keyword2) + 2 + len(start_keyword2)
             tmi = line[start_index:].strip()
             tmis.append(tmi)
-        else:
+        else :
             pass
-
+            
             #tmis.append()
             
-    
+
     return locations,tmis
 
 
    
 
-def retrieve(query_string,user):    
+def retrieve(query_string, user) :    
     
     download(query_string, limit=5,  output_dir = f'{user}/dataset', adult_filter_off=True, force_replace=False, timeout=60, verbose=True, filter='jpg')
     
-    list=glob.glob(f"{user}/dataset/{query_string}/*.png")
-    list+=glob.glob(f"{user}/dataset/{query_string}/*.jpg")
-    list+=glob.glob(f"{user}/dataset/{query_string}/*.jpeg")
-    list=sorted(list)
+    list = glob.glob(f"{user}/dataset/{query_string}/*.png")
+    list += glob.glob(f"{user}/dataset/{query_string}/*.jpg")
+    list += glob.glob(f"{user}/dataset/{query_string}/*.jpeg")
+    list = sorted(list)
+    
+    
     #random.shuffle(list)
     
 
