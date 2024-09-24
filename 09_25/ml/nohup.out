@@ -1,0 +1,171 @@
+/root/anaconda3/envs/naver/lib/python3.10/site-packages/huggingface_hub/file_download.py:1150: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Downloading shards:   0%|          | 0/4 [00:00<?, ?it/s]/root/anaconda3/envs/naver/lib/python3.10/site-packages/diffusers/configuration_utils.py:245: FutureWarning: It is deprecated to pass a pretrained model name or path to `from_config`.If you were trying to load a model, please use <class 'diffusers.models.unets.unet_2d_condition.UNet2DConditionModel'>.load_config(...) followed by <class 'diffusers.models.unets.unet_2d_condition.UNet2DConditionModel'>.from_config(...) instead. Otherwise, please make sure to pass a configuration dictionary instead. This functionality will be removed in v1.0.0.
+  deprecate("config-passed-as-path", "1.0.0", deprecation_message, standard_warn=False)
+/root/anaconda3/envs/naver/lib/python3.10/site-packages/diffusers/models/vq_model.py:20: FutureWarning: `VQEncoderOutput` is deprecated and will be removed in version 0.31. Importing `VQEncoderOutput` from `diffusers.models.vq_model` is deprecated and this will be removed in a future version. Please use `from diffusers.models.autoencoders.vq_model import VQEncoderOutput`, instead.
+  deprecate("VQEncoderOutput", "0.31", deprecation_message)
+/root/anaconda3/envs/naver/lib/python3.10/site-packages/diffusers/models/vq_model.py:25: FutureWarning: `VQModel` is deprecated and will be removed in version 0.31. Importing `VQModel` from `diffusers.models.vq_model` is deprecated and this will be removed in a future version. Please use `from diffusers.models.autoencoders.vq_model import VQModel`, instead.
+  deprecate("VQModel", "0.31", deprecation_message)
+Fetching 18 files:   0%|          | 0/18 [00:00<?, ?it/s]Fetching 18 files:  33%|███▎      | 6/18 [04:57<09:55, 49.66s/it]/root/anaconda3/envs/naver/lib/python3.10/site-packages/huggingface_hub/file_download.py:1150: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/root/anaconda3/envs/naver/lib/python3.10/site-packages/huggingface_hub/file_download.py:1150: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/root/naver/members/soo/ml/model6.py", line 4, in <module>
+    pipe = pipeline("translation", model="Helsinki-NLP/opus-mt-tc-big-ko-en")
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 1005, in pipeline
+    tokenizer = AutoTokenizer.from_pretrained(
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/models/auto/tokenization_auto.py", line 862, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1450, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/utils/import_utils.py", line 1438, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+MarianTokenizer requires the SentencePiece library but it was not found in your environment. Checkout the instructions on the
+installation page of its repo: https://github.com/google/sentencepiece#installation and follow the ones
+that match your environment. Please note that you may need to restart your runtime after installation.
+
+/root/anaconda3/envs/naver/lib/python3.10/site-packages/huggingface_hub/file_download.py:1150: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/root/naver/members/soo/ml/model6.py", line 4, in <module>
+    pipe = pipeline("translation", model="Helsinki-NLP/opus-mt-tc-big-ko-en")
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/pipelines/__init__.py", line 906, in pipeline
+    framework, model = infer_framework_load_model(
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/pipelines/base.py", line 283, in infer_framework_load_model
+    model = model_class.from_pretrained(model, **kwargs)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/models/auto/auto_factory.py", line 563, in from_pretrained
+    return model_class.from_pretrained(
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/modeling_utils.py", line 3550, in from_pretrained
+    model = cls(config, *model_args, **model_kwargs)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/models/marian/modeling_marian.py", line 1240, in __init__
+    self.model = MarianModel(config)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/models/marian/modeling_marian.py", line 1061, in __init__
+    self.encoder = MarianEncoder(config, encoder_embed_tokens)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/models/marian/modeling_marian.py", line 647, in __init__
+    self.embed_positions = MarianSinusoidalPositionalEmbedding(
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/models/marian/modeling_marian.py", line 76, in __init__
+    self.weight = self._init_weight(self.weight)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/models/marian/modeling_marian.py", line 86, in _init_weight
+    [[pos / np.power(10000, 2 * (j // 2) / dim) for j in range(dim)] for pos in range(n_pos)]
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/models/marian/modeling_marian.py", line 86, in <listcomp>
+    [[pos / np.power(10000, 2 * (j // 2) / dim) for j in range(dim)] for pos in range(n_pos)]
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/models/marian/modeling_marian.py", line 86, in <listcomp>
+    [[pos / np.power(10000, 2 * (j // 2) / dim) for j in range(dim)] for pos in range(n_pos)]
+KeyboardInterrupt
+/root/anaconda3/envs/naver/lib/python3.10/site-packages/huggingface_hub/file_download.py:1150: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Downloading shards:   0%|          | 0/3 [00:00<?, ?it/s]/root/anaconda3/envs/naver/lib/python3.10/site-packages/huggingface_hub/file_download.py:1150: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Fetching 18 files:  89%|████████▉ | 16/18 [38:00<05:08, 154.27s/it]Fetching 18 files: 100%|██████████| 18/18 [38:00<00:00, 126.67s/it]
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:00<00:00, 17.76it/s]The config attributes {'decay': 0.9999, 'inv_gamma': 1.0, 'min_decay': 0.0, 'optimization_step': 37000, 'power': 0.6666666666666666, 'update_after_step': 0, 'use_ema_warmup': False} were passed to UNet2DConditionModel, but are not expected and will be ignored. Please verify your config.json configuration file.
+Loading pipeline components...:  57%|█████▋    | 4/7 [00:00<00:00,  5.94it/s]Loading pipeline components...:  71%|███████▏  | 5/7 [00:00<00:00,  5.35it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:01<00:00,  6.83it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:01<00:00,  6.76it/s]
+  0%|          | 0/19 [00:00<?, ?it/s]  5%|▌         | 1/19 [00:00<00:06,  2.94it/s] 16%|█▌        | 3/19 [00:00<00:02,  6.34it/s] 21%|██        | 4/19 [00:00<00:02,  6.88it/s] 26%|██▋       | 5/19 [00:00<00:01,  7.29it/s] 32%|███▏      | 6/19 [00:00<00:01,  7.58it/s] 37%|███▋      | 7/19 [00:01<00:01,  7.78it/s] 42%|████▏     | 8/19 [00:01<00:01,  7.94it/s] 47%|████▋     | 9/19 [00:01<00:01,  8.05it/s] 53%|█████▎    | 10/19 [00:01<00:01,  8.11it/s] 58%|█████▊    | 11/19 [00:01<00:00,  8.14it/s] 63%|██████▎   | 12/19 [00:01<00:00,  8.17it/s] 68%|██████▊   | 13/19 [00:01<00:00,  8.20it/s] 74%|███████▎  | 14/19 [00:01<00:00,  8.22it/s] 79%|███████▉  | 15/19 [00:01<00:00,  8.23it/s] 84%|████████▍ | 16/19 [00:02<00:00,  8.26it/s] 89%|████████▉ | 17/19 [00:02<00:00,  8.27it/s] 95%|█████████▍| 18/19 [00:02<00:00,  8.28it/s]100%|██████████| 19/19 [00:02<00:00,  8.28it/s]100%|██████████| 19/19 [00:02<00:00,  7.72it/s]
+Downloading shards:  25%|██▌       | 1/4 [41:19<2:03:59, 2479.81s/it]Fetching 17 files:   0%|          | 0/17 [00:00<?, ?it/s]Fetching 17 files:  12%|█▏        | 2/17 [00:00<00:03,  4.38it/s]Fetching 17 files:  24%|██▎       | 4/17 [03:09<12:02, 55.61s/it]Fetching 17 files:  35%|███▌      | 6/17 [15:59<37:47, 206.11s/it]Fetching 17 files: 100%|██████████| 17/17 [15:59<00:00, 56.45s/it]
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  14%|█▍        | 1/7 [00:00<00:02,  2.87it/s]Loading pipeline components...:  57%|█████▋    | 4/7 [00:00<00:00, 10.73it/s]Loading pipeline components...:  86%|████████▌ | 6/7 [00:00<00:00, 11.20it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:00<00:00, 10.50it/s]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:00<00:01,  1.79it/s] 75%|███████▌  | 3/4 [00:00<00:00,  5.06it/s]100%|██████████| 4/4 [00:00<00:00,  5.19it/s]
+Downloading shards:  33%|███▎      | 1/3 [52:42<1:45:24, 3162.38s/it]Downloading shards:  50%|█████     | 2/4 [1:24:57<1:25:21, 2560.93s/it]Downloading shards:  75%|███████▌  | 3/4 [1:54:28<36:40, 2200.08s/it]  Downloading shards: 100%|██████████| 4/4 [1:57:32<00:00, 1404.11s/it]Downloading shards: 100%|██████████| 4/4 [1:57:32<00:00, 1763.02s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:07,  2.41s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.34s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:00,  1.29it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.96it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.25it/s]
+Some parameters are on the meta device device because they were offloaded to the cpu.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Downloading shards:  67%|██████▋   | 2/3 [1:27:32<42:11, 2531.65s/it]Downloading shards: 100%|██████████| 3/3 [1:35:46<00:00, 1601.27s/it]Downloading shards: 100%|██████████| 3/3 [1:35:46<00:00, 1915.54s/it]
+/root/anaconda3/envs/naver/lib/python3.10/site-packages/accelerate/utils/modeling.py:1405: UserWarning: Current model requires 469765632 bytes of buffer for offloaded layers, which seems does not fit any GPU's remaining memory. If you are experiencing a OOM later, please consider using offload_buffers=True.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:00<00:01,  1.51it/s]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:00<00:00,  2.89it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  4.05it/s]Loading checkpoint shards: 100%|██████████| 3/3 [00:00<00:00,  3.27it/s]
+Some parameters are on the meta device device because they were offloaded to the cpu.
+Traceback (most recent call last):
+  File "/root/naver/members/soo/ml/model4.py", line 34, in <module>
+    outputs = pipeline(
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 240, in __call__
+    return super().__call__(text_inputs, **kwargs)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1242, in __call__
+    return self.run_single(inputs, preprocess_params, forward_params, postprocess_params)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1249, in run_single
+    model_outputs = self.forward(model_inputs, **forward_params)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/pipelines/base.py", line 1149, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/pipelines/text_generation.py", line 327, in _forward
+    generated_sequence = self.model.generate(input_ids=input_ids, attention_mask=attention_mask, **generate_kwargs)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/generation/utils.py", line 1622, in generate
+    result = self._sample(
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/generation/utils.py", line 2791, in _sample
+    outputs = self(
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/accelerate/hooks.py", line 169, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/transformers/models/llama/modeling_llama.py", line 1227, in forward
+    logits = self.lm_head(hidden_states)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/accelerate/hooks.py", line 164, in new_forward
+    args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/accelerate/hooks.py", line 354, in pre_forward
+    set_module_tensor_to_device(
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/accelerate/utils/modeling.py", line 416, in set_module_tensor_to_device
+    new_value = value.to(device)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 1002.00 MiB. GPU 0 has a total capacity of 39.59 GiB of which 535.19 MiB is free. Process 4132989 has 10.19 GiB memory in use. Process 1542264 has 17.27 GiB memory in use. Process 3729598 has 8.69 GiB memory in use. Process 3850136 has 2.92 GiB memory in use. Of the allocated memory 7.36 GiB is allocated by PyTorch, and 855.99 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+>Traceback (most recent call last):
+  File "/root/naver/members/soo/ml/model6.py", line 45, in <module>
+    main()
+  File "/root/naver/members/soo/ml/model6.py", line 38, in main
+    text = input('>')
+OSError: [Errno 9] Bad file descriptor
+Traceback (most recent call last):
+  File "/root/naver/members/soo/ml/model7.py", line 1, in <module>
+    import gradio as gr
+ModuleNotFoundError: No module named 'gradio'
+Couldn't connect to the Hub: 404 Client Error. (Request ID: Root=1-66a8b4be-5c335ec87282a1a10b0f2e28;0aee83aa-936d-4783-b663-fc6b69738575)
+
+Repository Not Found for url: https://huggingface.co/api/models/multimodalart/stable-video-diffusion.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated..
+Will try to load from local cache.
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/huggingface_hub/utils/_errors.py", line 304, in hf_raise_for_status
+    response.raise_for_status()
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://huggingface.co/api/models/multimodalart/stable-video-diffusion
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/diffusers/pipelines/pipeline_utils.py", line 1300, in download
+    info = model_info(pretrained_model_name, token=token, revision=revision)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/huggingface_hub/hf_api.py", line 2373, in model_info
+    hf_raise_for_status(r)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/huggingface_hub/utils/_errors.py", line 352, in hf_raise_for_status
+    raise RepositoryNotFoundError(message, response) from e
+huggingface_hub.utils._errors.RepositoryNotFoundError: 404 Client Error. (Request ID: Root=1-66a8b4be-5c335ec87282a1a10b0f2e28;0aee83aa-936d-4783-b663-fc6b69738575)
+
+Repository Not Found for url: https://huggingface.co/api/models/multimodalart/stable-video-diffusion.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/naver/members/soo/ml/model7.py", line 11, in <module>
+    pipe = StableVideoDiffusionPipeline.from_pretrained(
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/diffusers/pipelines/pipeline_utils.py", line 702, in from_pretrained
+    cached_folder = cls.download(
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+  File "/root/anaconda3/envs/naver/lib/python3.10/site-packages/diffusers/pipelines/pipeline_utils.py", line 1548, in download
+    raise EnvironmentError(
+OSError: Cannot load model multimodalart/stable-video-diffusion: model is not cached locally and an error occurred while trying to fetch metadata from the Hub. Please check out the root cause in the stacktrace above.
+Fetching 15 files:   0%|          | 0/15 [00:00<?, ?it/s]Fetching 15 files:  20%|██        | 3/15 [11:58<47:55, 239.64s/it]Fetching 15 files:  87%|████████▋ | 13/15 [25:11<03:34, 107.09s/it]Fetching 15 files: 100%|██████████| 15/15 [25:11<00:00, 100.77s/it]
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  14%|█▍        | 1/7 [00:00<00:03,  1.59it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:00<00:02,  2.21it/s]Loading pipeline components...:  57%|█████▋    | 4/7 [00:01<00:00,  3.04it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:01<00:00,  4.50it/s]
+  0%|          | 0/50 [00:00<?, ?it/s]  2%|▏         | 1/50 [00:03<02:28,  3.03s/it]  4%|▍         | 2/50 [00:04<01:30,  1.89s/it]  6%|▌         | 3/50 [00:05<01:11,  1.52s/it]  8%|▊         | 4/50 [00:06<01:02,  1.35s/it] 10%|█         | 5/50 [00:07<00:56,  1.26s/it] 12%|█▏        | 6/50 [00:08<00:52,  1.20s/it] 14%|█▍        | 7/50 [00:09<00:50,  1.17s/it] 16%|█▌        | 8/50 [00:10<00:48,  1.14s/it] 18%|█▊        | 9/50 [00:11<00:46,  1.13s/it] 20%|██        | 10/50 [00:12<00:44,  1.12s/it] 22%|██▏       | 11/50 [00:13<00:42,  1.09s/it] 24%|██▍       | 12/50 [00:14<00:41,  1.09s/it] 26%|██▌       | 13/50 [00:16<00:40,  1.09s/it] 28%|██▊       | 14/50 [00:17<00:39,  1.09s/it] 30%|███       | 15/50 [00:18<00:38,  1.09s/it] 32%|███▏      | 16/50 [00:19<00:37,  1.09s/it] 34%|███▍      | 17/50 [00:20<00:36,  1.09s/it] 36%|███▌      | 18/50 [00:21<00:34,  1.09s/it] 38%|███▊      | 19/50 [00:22<00:33,  1.09s/it] 40%|████      | 20/50 [00:23<00:32,  1.09s/it] 42%|████▏     | 21/50 [00:24<00:31,  1.09s/it] 44%|████▍     | 22/50 [00:25<00:30,  1.09s/it] 46%|████▌     | 23/50 [00:26<00:29,  1.09s/it] 48%|████▊     | 24/50 [00:28<00:28,  1.09s/it] 50%|█████     | 25/50 [00:29<00:27,  1.09s/it] 52%|█████▏    | 26/50 [00:30<00:26,  1.09s/it] 54%|█████▍    | 27/50 [00:31<00:25,  1.09s/it] 56%|█████▌    | 28/50 [00:32<00:24,  1.10s/it] 58%|█████▊    | 29/50 [00:33<00:23,  1.10s/it] 60%|██████    | 30/50 [00:34<00:22,  1.10s/it] 62%|██████▏   | 31/50 [00:35<00:20,  1.10s/it] 64%|██████▍   | 32/50 [00:36<00:19,  1.10s/it] 66%|██████▌   | 33/50 [00:37<00:18,  1.10s/it] 68%|██████▊   | 34/50 [00:39<00:17,  1.10s/it] 70%|███████   | 35/50 [00:40<00:16,  1.09s/it] 72%|███████▏  | 36/50 [00:41<00:15,  1.09s/it] 74%|███████▍  | 37/50 [00:42<00:14,  1.09s/it] 76%|███████▌  | 38/50 [00:43<00:13,  1.09s/it] 78%|███████▊  | 39/50 [00:44<00:12,  1.09s/it] 80%|████████  | 40/50 [00:45<00:10,  1.09s/it] 82%|████████▏ | 41/50 [00:46<00:09,  1.09s/it] 84%|████████▍ | 42/50 [00:47<00:08,  1.09s/it] 86%|████████▌ | 43/50 [00:48<00:07,  1.09s/it] 88%|████████▊ | 44/50 [00:49<00:06,  1.09s/it] 90%|█████████ | 45/50 [00:51<00:05,  1.09s/it] 92%|█████████▏| 46/50 [00:52<00:04,  1.09s/it] 94%|█████████▍| 47/50 [00:53<00:03,  1.09s/it] 96%|█████████▌| 48/50 [00:54<00:02,  1.09s/it] 98%|█████████▊| 49/50 [00:55<00:01,  1.09s/it]100%|██████████| 50/50 [00:56<00:00,  1.09s/it]100%|██████████| 50/50 [00:56<00:00,  1.13s/it]
