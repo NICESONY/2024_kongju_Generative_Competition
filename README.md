@@ -161,3 +161,5 @@ AI_RUNNER_손건희
 -----------
 
 ### stable-video-diffusioon 사용법 https://stable-diffusion-art.com/stable-video-diffusion-img2vid/
+
+### 허깅페이스 지리는 부분 참고하자 https://huggingface.co/docs/diffusers/main/en/using-diffusers/text-img2vid
