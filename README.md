@@ -156,3 +156,8 @@ AI_RUNNER_손건희
    - 연구실 컨택은 인기 연구실일수록 빠르게 자리가 차기 때문에 빠른 컨택이 중요합니다.
 
 이 내용이 도움이 되셨으면 좋겠습니다! 추가로 질문이 있으시면 언제든지 말씀해 주세요.
+
+
+-----------
+
+### stable-video-diffusioon 사용법 https://stable-diffusion-art.com/stable-video-diffusion-img2vid/
