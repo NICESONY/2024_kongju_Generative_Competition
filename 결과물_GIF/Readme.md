@@ -8,3 +8,11 @@
 ----------------
 
 ## 파일명 : 입력 프롭포트 (해당입력 프롭포트를 영어로 변환 후 chat gpt 4 API를 이용해서 입력)
+
+
+
+--------------------------
+
+## 결과물(1)
+
+![image](https://github.com/user-attachments/assets/61043ce7-8c8a-4483-ac49-bc9fd6ff79ca)
