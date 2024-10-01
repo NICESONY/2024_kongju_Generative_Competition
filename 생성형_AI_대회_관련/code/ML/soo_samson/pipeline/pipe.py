@@ -124,7 +124,7 @@ def main_pipe(user_name2="A",tit=None,hash=None,content=None,input_prompt2="관�
 if __name__ == '__main__':
       
       
-      # 유저이름, 제목, 해시태그, 게시물 , 스타일프롬프트
+      # 유저이름, 제목, 해시태그, 게시물 , 스타일 프롬프트
      
 
       gif_path, img_path, rec_title, rec_tmi = main_pipe("user13", "/root/naver/members/soo/pipeline/user_input/input.png", "관광 홍보위한 동영상")

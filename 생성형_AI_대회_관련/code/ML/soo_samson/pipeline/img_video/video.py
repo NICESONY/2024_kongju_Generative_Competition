@@ -21,8 +21,8 @@ def vid_generate(recommended_img:str,user_prompt:str,steps,scale,user):
     prompt = user_prompt
     orig_size = Image.open(recommended_img).size
 
-    if orig_size[1]<orig_size[0]:
-        orig_size2=(orig_size[1],orig_size[0])
+    if orig_size[1]<orig_size[0] :
+        orig_size2=(orig_size[1], orig_size[0])
         image = load_image(path).convert("RGB")
         image=image.resize(orig_size2)
     else:
