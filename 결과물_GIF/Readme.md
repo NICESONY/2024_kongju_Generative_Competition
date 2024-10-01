@@ -20,3 +20,10 @@
 ## 결과물(2)
 
 ![image](https://github.com/user-attachments/assets/66b255f9-ed80-41f8-92b3-1971182815e0)
+
+
+-------------------------------
+
+## 향후 목표
+
+## 영상을 지속적으로 생성하는 것 + 추가적인 LAYOUT_GENERATION MODEL 적용
