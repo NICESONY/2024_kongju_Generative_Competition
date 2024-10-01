@@ -28,10 +28,13 @@
 
 ![image](https://github.com/user-attachments/assets/61043ce7-8c8a-4483-ac49-bc9fd6ff79ca)
 
+## 결과물(2)
+
+![image](https://github.com/user-attachments/assets/66b255f9-ed80-41f8-92b3-1971182815e0)
 
 ## 결과물 GIF 파일 참고
 
-
+---------------------
 
 ### 1. 클립드랍
 
