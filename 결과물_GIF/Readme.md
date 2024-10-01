@@ -19,3 +19,4 @@
 
 ## 결과물(2)
 
+![image](https://github.com/user-attachments/assets/66b255f9-ed80-41f8-92b3-1971182815e0)
