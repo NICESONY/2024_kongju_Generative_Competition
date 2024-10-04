@@ -29,8 +29,7 @@
 ![image](https://github.com/user-attachments/assets/61043ce7-8c8a-4483-ac49-bc9fd6ff79ca)
 
 ## 결과물(2)
-
-![image](https://github.com/user-attachments/assets/66b255f9-ed80-41f8-92b3-1971182815e0)
+![video of moving fish__26](https://github.com/user-attachments/assets/e86019b2-b843-428d-98ab-0f8b2e6b6d0d)
 
 ## 결과물 GIF 파일 참고
 
