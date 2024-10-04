@@ -26,10 +26,18 @@
 
 ## 결과물(1)
 
-![image](https://github.com/user-attachments/assets/61043ce7-8c8a-4483-ac49-bc9fd6ff79ca)
+![moving robot video__80](https://github.com/user-attachments/assets/146fee19-46e6-4b78-977c-af0989a15d80)
+
 
 ## 결과물(2)
 ![video of moving fish__26](https://github.com/user-attachments/assets/e86019b2-b843-428d-98ab-0f8b2e6b6d0d)
+
+
+## 결과물(3)
+
+![the sky is a paper airplane__25](https://github.com/user-attachments/assets/60c0215e-8d98-4e7f-9b52-3f4af609abd2)
+
+
 
 ## 결과물 GIF 파일 참고
 
