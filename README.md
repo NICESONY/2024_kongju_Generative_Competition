@@ -45,14 +45,6 @@
 
 ### 1. 클립드랍
 
-
-## 일정 
-
-### 10월 7일까지 최종보고서 + 3분 이내 영상만들기
-
-### 이후 평가 예정
-
-
 -----------
 
 ### stable-video-diffusioon 사용법 https://stable-diffusion-art.com/stable-video-diffusion-img2vid/
