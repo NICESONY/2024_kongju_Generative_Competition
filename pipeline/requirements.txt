@@ -1,0 +1,11 @@
+openai>=1.0.0
+torch
+diffusers
+transformers
+accelerate
+Pillow
+easyocr
+langdetect
+bing-image-downloader
+fastapi
+uvicorn

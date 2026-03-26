@@ -161,3 +161,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 생성형_AI_대회_관련/code/ML/stable-video-diffusion-img2vid-xt/svd_xt.safetensors
+
+# 정리된 이전 코드
+_archive/
