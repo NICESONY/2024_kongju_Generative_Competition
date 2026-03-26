@@ -1,4 +1,4 @@
-# 2024 공주대학교 생성형 AI 대회
+# 2024_kongju_Generative_Competition
 
 > 텍스트 입력으로부터 대전 관광 홍보 영상(GIF)을 자동 생성하는 파이프라인
 
