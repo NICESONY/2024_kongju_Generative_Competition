@@ -1,33 +1,9 @@
 # 2024_kongju_Generative_Competition
 
-> 텍스트 입력으로부터 대전 관광 홍보 영상(GIF)을 자동 생성하는 파이프라인
+> 텍스트 입력으로부터 교육자료 생성을 위한 파이프라인
 
 ---
 
-## 처리 파이프라인
-
-```
-사용자 입력 (제목, 해시태그, 게시글)
-    │
-    ▼
-[1] 텍스트 → 이미지 변환 (utils.py)
-    │
-    ▼
-[2] OCR + GPT-4o-mini 로 구조화 (ocr/recog.py)
-    │
-    ▼
-[3] GPT-4o-mini 로 대전 관광지 3곳 추천 (pipe.py)
-    │
-    ▼
-[4] Bing 이미지 검색으로 장소 사진 수집 (crawl/crawling.py)
-    │
-    ▼
-[5] I2VGen-XL 로 이미지 → 영상(GIF) 생성 (img_video/video.py)
-    │   └── 한국어 프롬프트 → Iris-7B로 영어 번역 (img_video/trans.py)
-    │
-    ▼
-출력: GIF 파일 + 추천 장소 정보
-```
 
 ---
 
